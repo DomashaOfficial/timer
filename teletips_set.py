@@ -31,7 +31,7 @@ TELETIPS_MAIN_MENU_BUTTONS = [
                 InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/BUDDY3_FF')
             ]
         ]
-@app.on_message(filters.command(["logo"]))
+@bot.on_message(filters.command(["logo"]))
 async def logo(_, m : Message):
     if len(m.command) <2:
         return await m.reply_text("Please provide a name")
