@@ -29,9 +29,6 @@ TELETIPS_MAIN_MENU_BUTTONS = [
                 InlineKeyboardButton('👥 GROUP', callback_data="GROUP_CALLBACK"),
                 InlineKeyboardButton('📣 CHANNEL', url='https://t.me/pc1games12'),
                 InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/BUDDY3_FF')
-            ],
-            [
-                InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")
             ]
         ]
 
@@ -108,9 +105,6 @@ async def callback_query(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('👥 GROUP', callback_data="GROUP_CALLBACK"),
                 InlineKeyboardButton('📣 CHANNEL', url='https://t.me/pc1games12'),
                 InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/BUDD3_FF')
-            ],
-            [
-                InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")
             ]
         ]
         reply_markup = InlineKeyboardMarkup(TELETIPS_START_BUTTONS)
