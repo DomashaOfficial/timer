@@ -7,11 +7,12 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 import os
+import request
 import asyncio
 from plugins.teletips_t import *
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.raw.functions.messages import UpdatePinnedMessage
-import request
+
 
 bot=Client(
     "Countdown-TeLeTiPs",
