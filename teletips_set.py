@@ -29,9 +29,9 @@ TELETIPS_MAIN_MENU_BUTTONS = [
                 InlineKeyboardButton('❓ HELP', callback_data="HELP_CALLBACK")
             ],
             [
-                InlineKeyboardButton('👥 GROUP', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/pc1games12'),
-                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/BUDDY3_FF')
+                InlineKeyboardButton('👥 GROUP', callback_data="https://t.me/SL_Developers_Support"),
+                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/SL_Developers_Official'),
+                InlineKeyboardButton('👨‍💻 DEVELOPER', url='https://t.me/DomashaRashmindu')
             ]
         ]         
           
