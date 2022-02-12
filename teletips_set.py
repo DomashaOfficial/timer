@@ -36,6 +36,7 @@ TELETIPS_MAIN_MENU_BUTTONS = [
 async def start(client, message):
     text = START_TEXT
     reply_markup = InlineKeyboardMarkup(TELETIPS_MAIN_MENU_BUTTONS)
+   await message.reply_sticker("  CAACAgIAAxkBAAEGXuJiB1T4qSgW5Bx2jYxEwevPB87FQgACzxMAAuwd0Uki1Z7JRHlwTR4E ")
     await message.reply(
         text=text,
         reply_markup=reply_markup,
@@ -62,7 +63,7 @@ async def callback_query(client: Client, query: CallbackQuery):
     elif query.data=="GROUP_CALLBACK":
         TELETIPS_GROUP_BUTTONS = [
             [
-                InlineKeyboardButton("MY BOT", url="https://t.me/ak_program_1_bot")
+                InlineKeyboardButton("MORE BOT", url="https://t.me/ak_program_1_bot")
             ],
             [
                 InlineKeyboardButton("LIVE STREAM", url="https://t.me/aastrem")
