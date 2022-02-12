@@ -29,7 +29,7 @@ TELETIPS_MAIN_MENU_BUTTONS = [
                 InlineKeyboardButton('❓ HELP', callback_data="HELP_CALLBACK")
             ],
             [
-                InlineKeyboardButton('👥 GROUP', callback_data="https://t.me/SL_Developers_Support"),
+                InlineKeyboardButton('👥 GROUP', url="https://t.me/SL_Developers_Support"),
                 InlineKeyboardButton('📣 CHANNEL', url='https://t.me/SL_Developers_Official'),
                 InlineKeyboardButton('👨‍💻 DEVELOPER', url='https://t.me/DomashaRashmindu')
             ]
