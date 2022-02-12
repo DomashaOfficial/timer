@@ -1,4 +1,4 @@
-@app.on_message(filters.command(["logo"]))
+@bot.on_message(filters.command(["logo"]))
 async def logo(_, m : Message):
     if len(m.command) <2:
         return await m.reply_text("Please provide a name")
